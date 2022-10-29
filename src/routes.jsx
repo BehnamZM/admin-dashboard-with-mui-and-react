@@ -3,7 +3,7 @@ import Team from "./scenes/Team/Team"
 import Contacts from "./scenes/Contacts/Contacts"
 import Invoices from "./scenes/Invoices/Invoices"
 import Form from "./scenes/form/Form"
-// import Calender from "./scenes/calencer/Calender"
+import Calender from "./scenes/calencer/Calender"
 import Faq from "./scenes/faq/Faq"
 import PieScreen from "./scenes/pieScreen/PieScreen"
 import LineScreen from "./scenes/lineScreen/LineScreen"
@@ -18,7 +18,7 @@ let routes = [
   {path: '/contacts' , element: <Contacts />},
   {path: '/invoices' , element: <Invoices />},
   {path: '/form' , element: <Form />},
-  // {path: '/calender' , element: <Calender />},
+  {path: '/calender' , element: <Calender />},
   {path: '/faq' , element: <Faq />},
   {path: '/pie' , element: <PieScreen />},
   {path: '/line' , element: <LineScreen />},

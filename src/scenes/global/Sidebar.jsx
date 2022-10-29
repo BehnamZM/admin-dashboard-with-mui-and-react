@@ -195,7 +195,7 @@ function Sidebar() {
         />
         <Item
           title="تقویم"
-          to="/calendar"
+          to="/calender"
           icon={<SlCalender />}
           selected={selected}
           setSelected={setSelected}
